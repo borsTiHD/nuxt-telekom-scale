@@ -1,6 +1,6 @@
 <template>
   <v-row>
-    <v-col class="text-center">
+    <v-col cols="12" class="text-center">
       <img
         src="/v.png"
         alt="Vuetify.js"
@@ -15,5 +15,13 @@
         </footer>
       </blockquote>
     </v-col>
+    <v-col cols="12" class="text-center">
+      <scale-button>Click!</scale-button>
+    </v-col>
   </v-row>
 </template>
+
+<script>
+export default {
+}
+</script>
